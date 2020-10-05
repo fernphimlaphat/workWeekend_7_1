@@ -44,23 +44,22 @@ int main()
 
 			num2 = num[i];
 
+				if (num[i] >= 0 && num[i] < 1000000)
+				{
+					i++;
+					c++;
 
-			if (num[i] >=0 && num[i] < 65000)
-			{
-				i++;
-				c++;
-			}
-			else
-			{
-				break;
-			}
+				}
+
+				else
+				{
+					break;
+				}
+			
+
 		} while (num2 != 0);
 
 
 
-		result(c, num);
-
-		
-
-	
+		result(c, num);	
 }
