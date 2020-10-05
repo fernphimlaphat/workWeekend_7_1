@@ -44,7 +44,7 @@ int main()
 
 			num2 = num[i];
 
-				if (num[i] >= 0 && num[i] < 1000000)
+				if (num[i] >= 0 && num[i] <= 1000000)
 				{
 					i++;
 					c++;
